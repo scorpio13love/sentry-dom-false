@@ -12,27 +12,12 @@ export default {
   components: {
   },
   methods: {
-    handleClick() {
-      console.log('click')
-    },
-    addEvent() {
-      document.addEventListener('click', this.handleClick)
-    },
-    removeEvent() {
-      document.removeEventListener('click', this.handleClick)
-    },
     goToDetail(){
       this.$router.push({
         path: '/detail'
       })
     }
   },
-  mounted() {
-    // this.addEvent()
-  },
-  beforeDestroy(){
-    // this.removeEvent()
-  }
 }
 </script>
 
