@@ -15,6 +15,7 @@ const sentryVue = new Integrations.Vue({
 
 Sentry.init({
   // put on your own dsn 
+  // 'https://fd252f64eebb49a7905de99355e27e38@sentry.io/1464704' 
   dsn: '',
   environment: process.env.NODE_ENV,
   integrations: [
